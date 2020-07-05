@@ -1,0 +1,39 @@
+@import '../Vars.scss';
+@import '../Media.scss';
+
+.error {
+    color:$blanco;
+    background: #16A085;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px, 30px;
+    min-height: calc(100vh-180px);
+}
+
+.error__main h1{
+    color: $blanco;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.animated{
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
+.pulse {
+    animation-name: pulse;
+    animation-duration: 1s;
+}
