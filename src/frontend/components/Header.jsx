@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux'
 import {Link} from 'react-router-dom';
 import gravatar from '../utils/gravatar';
-import {logoutRequest} from '../actions ';
+import {logoutRequest} from '../actions_';
 import classNames from 'classnames'
 import PropTypes from 'prop-types';
 import '../assets/styles/components/Header.scss'

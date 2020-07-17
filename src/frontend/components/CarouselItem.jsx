@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux'
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
-import {setFavorite, deleteFavorite} from '../actions '
+import {setFavorite, deleteFavorite} from '../actions_'
 import '../assets/styles/components/Carouselitem.scss'
 import playIcon from '../assets/static/play-icon.png';
 import plusIcon from '../assets/static/plus-icon.png'

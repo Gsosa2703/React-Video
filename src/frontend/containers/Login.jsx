@@ -2,7 +2,7 @@ import React, {useState }from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import Header from '../components/Header'
-import {loginRequest} from '../actions ';
+import {loginRequest} from '../actions_';
 import '../assets/styles/components/Login.scss'
 import googleIcon from '../assets/static/google-icon.png'
 import twitterIcon from '../assets/static/twitter-icon.png'

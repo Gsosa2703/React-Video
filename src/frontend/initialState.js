@@ -1,10 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './routes/App';
-import {Provider} from 'react-redux';
-import {createStore, compose} from 'redux';
-import reducer from './reducers'
-
 const initialSate = {
     "user": {},
     "playing": {},
@@ -167,17 +160,8 @@ const initialSate = {
           "cover": "http://dummyimage.com/800x600.png/5472FF/ffffff",
           "description": "Vestibulum ac est lacinia nisi venenatis tristique",
           "source": "https://mdstrm.com/video/58333e214ad055d208427db5.mp4"
-        }
-      ]
+        },
+      ],
 }
-  const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const store = createStore(reducer, initialSate, composeEnhancers())
-ReactDOM.render(
 
-    <Provider store={store}>
-        <App />
-    </Provider>,
-
-
-
-document.getElementById('app'));
+export default initialSate;

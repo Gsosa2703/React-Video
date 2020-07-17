@@ -1,6 +1,6 @@
 import React, {useLayoutEffect} from 'react';
 import {connect} from 'react-redux'
-import {getVideoSource} from '../actions '
+import {getVideoSource} from '../actions_'
 import '../assets/styles/components/Player.scss'
 import NotFound from '../containers/NotFound'
 const Player = (props) => {

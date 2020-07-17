@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {connect} from 'react-redux';
 import Header from '../components/Header'
-import {registerRequest} from '../actions '
+import {registerRequest} from '../actions_'
 import {Link} from 'react-router-dom';
 import "../assets/styles/components/Register.scss"
 
